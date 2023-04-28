@@ -64,7 +64,9 @@
 }
 
 .login-wrapper .login-form label {
-    display:inline-flex;
+    display:flex;
+    width: 100%;
+    align-items: start;
     flex-direction: column;
     gap: 5px;
     margin: 0;
@@ -77,6 +79,10 @@
     gap: 5px;
     margin: 0;
     padding: 0;
+
+}
+
+.login-wrapper .login-form label input {
     width: min-content;
 }
 
